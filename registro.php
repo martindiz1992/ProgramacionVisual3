@@ -28,17 +28,18 @@
       <div class="login-form">
         <form>
           <div class="form-group">
-            <label>User Name</label>
-            <input type="text" class="form-control" placeholder="User Name">
+            <label>Mail</label>
+            <input type="text" class="form-control" placeholder="Mail">
           </div>
           <div class="form-group">
-            <label>Password</label>
-            <input type="password" class="form-control" placeholder="Password">
+            <label>Nombre</label>
+            <input type="text" class="form-control" placeholder="Nombre">
           </div>
-          <a href="./index.php">
-          <button type="submit" class="btn btn-dark">Acceder</button>
-          </a>
-          <a href="./registro.php">
+          <div class="form-group">
+            <label>Apellido</label>
+            <input type="text" class="form-control" placeholder="Nombre">
+          </div>
+          <a href="./registroexito.php">
           <button type="submit" class="btn btn-secondary">Registrarse</button>
           </a>
         </form>
